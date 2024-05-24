@@ -1,7 +1,12 @@
-api_hash: your_api_hash
-api_id: your_api_id
-chat_id: telegram_chat_id
-last_read_message_id: 0
+api_hash: 4777715f01d208f7e4dfed2f44c3c702
+api_id: 809268
+chat_ids:
+  - FljAV
+  - hxfxq
+last_read_message_ids:
+  CHAT_ID_1: LAST_MESSAGE_ID_1
+  CHAT_ID_2: LAST_MESSAGE_ID_2
+  CHAT_ID_3: LAST_MESSAGE_ID_3
 ids_to_retry: []
 media_types:
 - audio
@@ -17,3 +22,13 @@ file_formats:
   - all
   video:
   - all
+
+proxy:
+  hostname: 127.0.0.1
+  password: null
+  port: 10808
+  scheme: socks5
+  username: null
+
+
+
